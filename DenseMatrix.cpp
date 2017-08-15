@@ -338,9 +338,9 @@ void DenseMatrix::PrintVector(std::vector<double>* V)
 	std::endl(std::cout);
 }
 
-//int main()
+/* int main()
 {
-	/* DenseMatrix* M = new DenseMatrix(3,3);
+	 DenseMatrix* M = new DenseMatrix(3,3);
 	PrintMatrix(M);
 	static DenseMatrix *A = DenseMatrix::ScalarMultiplication(M, 2);
 	static DenseMatrix *B = DenseMatrix::ScalarMultiplication(M, 3);
@@ -383,9 +383,9 @@ void DenseMatrix::PrintVector(std::vector<double>* V)
 	//PrintMatrix(G);
 	//delete G;
 	delete E;
-	delete F; */
+	delete F; 
 	return 0;
-}
+} */
 
 double DetHelper(std::vector<std::vector<double>> A, int Rows, int Cols)
 {
